@@ -9,5 +9,6 @@
 	<classpathentry kind="lib" path="HorrorScene.fxml"/>
 	<classpathentry kind="lib" path="ChoiceBox.fxml"/>
 	<classpathentry kind="lib" path="ChoiceBox.java"/>
+	<classpathentry kind="lib" path="src/ChoiceBox.fxml"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
