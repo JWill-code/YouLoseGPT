@@ -18,10 +18,10 @@
                <content>
                   <VBox spacing="8.0">
                      <children>
-                        <Button mnemonicParsing="false" text="Walk Left" />
-                        <Button mnemonicParsing="false" text="Walk Right" />
-                        <Button mnemonicParsing="false" text="Walk Straight" />
-                        <Button mnemonicParsing="false" text="Cry" />
+                        <Button fx:id="leftPath" mnemonicParsing="false" text="Walk Left" />
+                        <Button fx:id="rightPath" mnemonicParsing="false" text="Walk Right" />
+                        <Button fx:id="straightPath" mnemonicParsing="false" text="Walk Straight" />
+                        <Button fx:id="cry" mnemonicParsing="false" text="Cry" />
                      </children>
                   </VBox>
                </content>
@@ -40,18 +40,18 @@
          <children>
             <Label text="Write your own path:" />
             <Button alignment="BOTTOM_LEFT" mnemonicParsing="false" text="Continue" />
-            <TextArea prefHeight="114.0" prefWidth="593.0" />
+            <TextArea fx:id="userTxt" prefHeight="114.0" prefWidth="593.0" />
          </children>
       </VBox>
    </bottom>
    <center>
-      <ImageView fitHeight="285.0" fitWidth="466.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="BOTTOM_CENTER">
+      <ImageView fx:id="pathPhoto" fitHeight="285.0" fitWidth="466.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="BOTTOM_CENTER">
          <image>
             <Image url="@../CreepyForest2.jpg" />
          </image>
       </ImageView>
    </center>
    <top>
-      <Label prefHeight="66.0" prefWidth="485.0" text="Instructions" BorderPane.alignment="TOP_RIGHT" />
+      <Label fx:id="narrator" prefHeight="66.0" prefWidth="485.0" text="Instructions" BorderPane.alignment="TOP_RIGHT" />
    </top>
 </BorderPane>
