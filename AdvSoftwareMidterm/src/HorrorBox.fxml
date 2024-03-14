@@ -45,9 +45,9 @@
       </VBox>
    </bottom>
    <center>
-      <ImageView fx:id="pathPhoto" fitHeight="285.0" fitWidth="466.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="BOTTOM_CENTER">
+      <ImageView fx:id="pathPhoto" fitHeight="285.0" fitWidth="466.0" onMouseClicked="#startGame" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="BOTTOM_CENTER">
          <image>
-            <Image url="@../Images/StartScreen.jpg" />
+            <Image url="@Images/StartScreen.jpg" />
          </image>
       </ImageView>
    </center>
