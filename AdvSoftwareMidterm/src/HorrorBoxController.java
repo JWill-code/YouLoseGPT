@@ -7,6 +7,9 @@ import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 
 public class HorrorBoxController {
+	
+	Start startOfGame = new Start(0);
+	Path path = new Path(0);
 
 	@FXML
 	private Button leftPath;
@@ -29,55 +32,43 @@ public class HorrorBoxController {
 	@FXML
 	private Label narrator;
 
-	public int counter = 0;
-
-	Image gameOver = new Image("Images/GameOVer.jpg");
-	Image beginning = new Image("Images/HauntedMaze.jpg");
-	Image forest1 = new Image("Images/CreepyForest1.jpg");
-	Image forest2 = new Image("Images/CreepyForest2.jpg");
-	Image forest3 = new Image("Images/CreepyForest3.jpg");
-	Image forest4 = new Image("Images/CreepyForest4.jpg");
-	Image forest5 = new Image("Images/CreepyForest5.jpg");
-
-
-
 	@FXML
 	void startGame(MouseEvent event) {
-		while(counter == 0) {
-			++counter;
-			pathPhoto.setImage(beginning);
-			narrator.setText("You Are lost, in a foreign area and must figure out a way to survive.\nWhat do you do? Go left? Right? Or Maybe just Cry!");
+		
+		while(path.counter == 0) {
+			narrator.setText(startOfGame.toString());
+			++path.counter;
+			pathPhoto.setImage(startOfGame.beginning);
 		}
-
-
 	}
 
 	@FXML
 	void cryButton(MouseEvent event) {
-		pathPhoto.setImage(gameOver);
+		path.counter += 4;
+		pathPhoto.setImage(path.gameOver);
 		narrator.setText("There are right decisions, and then there is what you did.\nEither way your journey is over!");
 	}
 
 	@FXML
 	void walkLeftButton(MouseEvent event) {
 
-		if (counter == 1) {
-			++counter;
-			pathPhoto.setImage(forest1);
+		if (path.counter == 1) {
+			++path.counter;
+			pathPhoto.setImage(path.forest1);
 			narrator.setText("First");
 		}
-		else if (counter == 2) {
-			++counter;
-			pathPhoto.setImage(forest2);
+		else if (path.counter == 2) {
+			++path.counter;
+			pathPhoto.setImage(path.forest2);
 			narrator.setText("Second");
 		}
-		else if (counter == 3) {
-			++counter;
-			pathPhoto.setImage(forest3);
+		else if (path.counter == 3) {
+			++path.counter;
+			pathPhoto.setImage(path.forest3);
 			narrator.setText("Third");
 		}
 		else {
-			pathPhoto.setImage(gameOver);
+			pathPhoto.setImage(path.gameOver);
 			narrator.setText("There are right decisions, and then there is what you did.\nEither way your journey is over!");
 		}
 	}

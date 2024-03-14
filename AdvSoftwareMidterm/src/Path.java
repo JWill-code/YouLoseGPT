@@ -1,3 +1,4 @@
+import javafx.scene.image.Image;
 
 public class Path {
 	//This Counter will keep track of how far along the player is in the story
@@ -13,4 +14,11 @@ public class Path {
 		this.counter = count;
 	}
 
+	Image forest1 = new Image("Images/CreepyForest1.jpg");
+	Image forest2 = new Image("Images/CreepyForest2.jpg");
+	Image forest3 = new Image("Images/CreepyForest3.jpg");
+	Image forest4 = new Image("Images/CreepyForest4.jpg");
+	Image forest5 = new Image("Images/CreepyForest5.jpg");
+	
+	
 }

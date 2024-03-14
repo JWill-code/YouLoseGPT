@@ -1,3 +1,4 @@
+import javafx.scene.image.Image;
 
 public class Start extends Path {
 
@@ -6,6 +7,8 @@ public class Start extends Path {
 		super(count);
 	}
 
+	Image beginning = new Image("Images/HauntedMaze.jpg");
+	
 	//Story for beginning journey
 	@Override
 	public String toString() {
