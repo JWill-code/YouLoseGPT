@@ -4,6 +4,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
 
 public class HorrorBoxController {
 
@@ -27,14 +28,12 @@ public class HorrorBoxController {
 
     @FXML
     private Label narrator;
-
-    Image gameOver = new Image("images/GameOVer.jpg");
     
-    
+    Image gameOver = new Image("Images/GameOVer.jpg");
     
     @FXML
     void cryButton(MouseEvent event) {
-
+    	pathPhoto.setImage(gameOver);
     }
 
     @FXML
