@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PainterController">
+<BorderPane prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PainterController">
    <left>
       <VBox maxHeight="1.7976931348623157E308" spacing="8.0" BorderPane.alignment="CENTER">
          <children>
@@ -18,10 +18,10 @@
                <content>
                   <VBox spacing="8.0">
                      <children>
-                        <Button fx:id="leftPath" mnemonicParsing="false" text="Walk Left" />
-                        <Button fx:id="rightPath" mnemonicParsing="false" text="Walk Right" />
-                        <Button fx:id="straightPath" mnemonicParsing="false" text="Walk Straight" />
-                        <Button fx:id="cry" mnemonicParsing="false" text="Cry" />
+                        <Button fx:id="leftPath" mnemonicParsing="false" onMouseClicked="#walkLeftButton" text="Walk Left" />
+                        <Button fx:id="rightPath" mnemonicParsing="false" onMouseClicked="#walkRightButton" text="Walk Right" />
+                        <Button fx:id="straightPath" mnemonicParsing="false" onMouseClicked="#walkStraightButton" text="Walk Straight" />
+                        <Button fx:id="cry" mnemonicParsing="false" onMouseClicked="#cryButton" text="Cry" />
                      </children>
                   </VBox>
                </content>
