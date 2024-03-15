@@ -19,6 +19,7 @@ public class Path {
 	Image forest3 = new Image("Images/CreepyForest3.jpg");
 	Image forest4 = new Image("Images/CreepyForest4.jpg");
 	Image forest5 = new Image("Images/CreepyForest5.jpg");
+	Image gameOver = new Image("Images/GameOVer.jpg");
 	
 	
 }
