@@ -75,11 +75,49 @@ public class HorrorBoxController {
 
 	@FXML
 	void walkRightButton(MouseEvent event) {
+		if (path.counter == 1) {
+			++path.counter;
+			pathPhoto.setImage(path.forest1);
+			narrator.setText("First");
+		}
+		else if (path.counter == 2) {
+			++path.counter;
+			pathPhoto.setImage(path.forest2);
+			narrator.setText("Second");
+		}
+		else if (path.counter == 3) {
+			++path.counter;
+			pathPhoto.setImage(path.forest3);
+			narrator.setText("Third");
+		}
+		else {
+			pathPhoto.setImage(path.gameOver);
+			narrator.setText("There are right decisions, and then there is what you did.\nEither way your journey is over!");
+		}
 
 	}
 
-	@FXML //this one should use the haunted maze pictures right
+	@FXML //this one should use the haunted maze pictures but HauntedMaze.jpg doesn't work
 	void walkStraightButton(MouseEvent event) {
+		if (path.counter == 1) {
+			++path.counter;
+			pathPhoto.setImage(path.forest1);
+			narrator.setText("First");
+		}
+		else if (path.counter == 2) {
+			++path.counter;
+			pathPhoto.setImage(path.forest2);
+			narrator.setText("Second");
+		}
+		else if (path.counter == 3) {
+			++path.counter;
+			pathPhoto.setImage(path.forest3);
+			narrator.setText("Third");
+		}
+		else {
+			pathPhoto.setImage(path.gameOver);
+			narrator.setText("There are right decisions, and then there is what you did.\nEither way your journey is over!");
+		}
 
 	}
 
