@@ -78,7 +78,7 @@ public class HorrorBoxController {
 
 	}
 
-	@FXML //this one should use the haunted maze pictures
+	@FXML //this one should use the haunted maze pictures right
 	void walkStraightButton(MouseEvent event) {
 
 	}
