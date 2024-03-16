@@ -20,6 +20,11 @@ public class Path {
 	Image forest4 = new Image("Images/CreepyForest4.jpg");
 	Image forest5 = new Image("Images/CreepyForest5.jpg");
 	Image gameOver = new Image("Images/GameOVer.jpg");
+	Image forest6 = new Image("Images/HauntedForest6.jpg");
+	Image maze2 = new Image("Images/HauntedMazeTwo.jpg");
+	Image maze3 = new Image("Images/HauntedMazeThree.jpg");
+	Image house1 = new Image("Images/SwampHouse.jpg");
+	//add images and make sure they upload
 	
 	
 }

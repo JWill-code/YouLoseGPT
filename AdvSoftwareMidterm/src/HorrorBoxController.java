@@ -77,7 +77,7 @@ public class HorrorBoxController {
 	void walkRightButton(MouseEvent event) {
 		if (path.counter == 1) {
 			++path.counter;
-			pathPhoto.setImage(path.forest1);
+			pathPhoto.setImage(path.forest1);//change to other picture
 			narrator.setText("First");
 		}
 		else if (path.counter == 2) {
