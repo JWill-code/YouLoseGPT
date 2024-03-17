@@ -77,17 +77,17 @@ public class HorrorBoxController {
 	void walkRightButton(MouseEvent event) {
 		if (path.counter == 1) {
 			++path.counter;
-			pathPhoto.setImage(path.forest1);//change to other picture
+			pathPhoto.setImage(path.forest4);//change to other picture
 			narrator.setText("First");
 		}
 		else if (path.counter == 2) {
 			++path.counter;
-			pathPhoto.setImage(path.forest2);
+			pathPhoto.setImage(path.forest5);
 			narrator.setText("Second");
 		}
 		else if (path.counter == 3) {
 			++path.counter;
-			pathPhoto.setImage(path.forest3);
+			pathPhoto.setImage(path.forest6);
 			narrator.setText("Third");
 		}
 		else {
@@ -101,17 +101,17 @@ public class HorrorBoxController {
 	void walkStraightButton(MouseEvent event) {
 		if (path.counter == 1) {
 			++path.counter;
-			pathPhoto.setImage(path.forest1);
+			pathPhoto.setImage(path.road1);
 			narrator.setText("First");
 		}
 		else if (path.counter == 2) {
 			++path.counter;
-			pathPhoto.setImage(path.forest2);
+			pathPhoto.setImage(path.maze2);
 			narrator.setText("Second");
 		}
 		else if (path.counter == 3) {
 			++path.counter;
-			pathPhoto.setImage(path.forest3);
+			pathPhoto.setImage(path.maze3);
 			narrator.setText("Third");
 		}
 		else {
