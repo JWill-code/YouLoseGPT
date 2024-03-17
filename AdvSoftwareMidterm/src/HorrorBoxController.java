@@ -14,49 +14,52 @@ public class HorrorBoxController {
 	Path path = new Path(0);
 
 	@FXML
-	private Button leftPath;
+	private Button leftPath; //choice one of storyline 12.3, 12.4
 
 	@FXML
-	private Button rightPath;
+	private Button rightPath; //choice two 12.3, 12.4
 
 	@FXML
-	private Button straightPath;
+	private Button straightPath; //choice three 12.3, 12.4
 
 	@FXML
-	private Button cry;
+	private Button cry; //immediately give up, game over. 12.3, 12.4
 
 	@FXML
-	private TextArea userTxt;
+	private TextArea userTxt; /*we will have the user enter something, but we will do tha 
+	code for the semester final, working with chatgpt. 12.5*/
 
 	@FXML
-	private ImageView pathPhoto;
+	private ImageView pathPhoto; //affected by user decision on button, picture path on presentation 13.3
 
 	@FXML
-	private Label narrator;
-
+	private Label narrator; //contains instructions/stuff for chatgpt which we will do later. from 12.4
+	//also contains the description of the result of each button press.
+	//event handling, stage set, user data, property binding for the pathPhoto image
 	@FXML
-	void startGame(MouseEvent event) {
+	void startGame(MouseEvent event) { //13.3-13.5
 		
 		while(path.counter == 0) {
-			narrator.setText(startOfGame.toString());
+			narrator.setText(startOfGame.toString()); //number of story points involved. start, points 1-3 (at most), game over
 			++path.counter;
 			pathPhoto.setImage(startOfGame.beginning);
 		}
 	}
 
 	@FXML
-	void cryButton(MouseEvent event) {
+	void cryButton(MouseEvent event) { //13.3-13.5
 		path.counter += 4;
 		pathPhoto.setImage(path.gameOver);
 		narrator.setText("There are right decisions, and then there is what you did.\nEither way your journey is over!");
 	}
 
 	@FXML
-	void walkLeftButton(MouseEvent event) {
+	void walkLeftButton(MouseEvent event) { //13.3-13.5 
 
 		if (path.counter == 1) {
 			++path.counter;
-			pathPhoto.setImage(path.forest1);
+			pathPhoto.setImage(path.forest1); //left, right, and straight are all dependent on the
+			//counter number
 			narrator.setText("First");
 		}
 		else if (path.counter == 2) {
@@ -76,7 +79,7 @@ public class HorrorBoxController {
 	}
 
 	@FXML
-	void walkRightButton(MouseEvent event) {
+	void walkRightButton(MouseEvent event) { //13.3-13.5
 		if (path.counter == 1) {
 			++path.counter;
 			pathPhoto.setImage(path.forest4);//change to other picture
@@ -99,8 +102,8 @@ public class HorrorBoxController {
 
 	}
 
-	@FXML //this one should use the haunted maze pictures but HauntedMaze.jpg doesn't work
-	void walkStraightButton(MouseEvent event) {
+	@FXML //this one should use the haunted maze pictures 
+	void walkStraightButton(MouseEvent event) { //13.3-13.5
 		if (path.counter == 1) {
 			++path.counter;
 			pathPhoto.setImage(path.road1);
