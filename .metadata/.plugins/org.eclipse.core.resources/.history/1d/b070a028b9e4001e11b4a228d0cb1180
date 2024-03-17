@@ -102,8 +102,6 @@ public class HorrorBoxController {
 		}
 		else if(path.counter == 0){
 			path.counter+=2;
-			pathPhoto.setImage(path.forest4);//change to other picture
-			narrator.setText("First");
 		}
 		else {
 			pathPhoto.setImage(path.gameOver);
@@ -131,8 +129,6 @@ public class HorrorBoxController {
 		}
 		else if(path.counter == 0){
 			path.counter+=2;
-			pathPhoto.setImage(path.road1);
-			narrator.setText("First");
 		}
 		else {
 			pathPhoto.setImage(path.gameOver);
