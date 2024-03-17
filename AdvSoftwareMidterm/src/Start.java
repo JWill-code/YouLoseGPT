@@ -1,5 +1,6 @@
 import javafx.scene.image.Image;
 
+//This exemplifies the Super class sub class relationship in ch.9 section 9.4
 public class Start extends Path {
 
 	// Where the count for the path will be stored

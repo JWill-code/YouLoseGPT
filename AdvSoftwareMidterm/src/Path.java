@@ -5,7 +5,7 @@ public class Path {
 	int counter = 0;
 
 	//This will be the area for generating content for their journey
-	public String toString() {
+	public String toString() { 
 		return " "; 
 	}
 

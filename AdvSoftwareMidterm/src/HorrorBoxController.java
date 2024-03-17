@@ -6,6 +6,8 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 
+
+//This is a successful implementation of a controller class as seen in ch.8
 public class HorrorBoxController {
 	
 	Start startOfGame = new Start(0);
