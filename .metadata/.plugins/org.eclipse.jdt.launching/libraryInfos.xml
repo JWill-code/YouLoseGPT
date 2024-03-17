@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
+    <libraryInfo home="C:\Program Files\Amazon Corretto\jdk1.8.0_402" version="1.8.0_402">
+        <bootpath>
+            <entry path="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre\lib\resources.jar"/>
+            <entry path="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre\lib\rt.jar"/>
+            <entry path="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre\lib\sunrsasign.jar"/>
+            <entry path="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre\lib\jsse.jar"/>
+            <entry path="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre\lib\jce.jar"/>
+            <entry path="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre\lib\charsets.jar"/>
+            <entry path="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre\lib\jfr.jar"/>
+            <entry path="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre\classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre\lib\ext"/>
+            <entry path="C:\windows\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
     <libraryInfo home="C:\Users\Bryon\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre" version="17.0.5"/>
     <libraryInfo home="C:\Users\Bryon\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933" version="17.0.5"/>
+    <libraryInfo home="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre" version="1.8.0_402">
+        <bootpath>
+            <entry path="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre\lib\resources.jar"/>
+            <entry path="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre\lib\rt.jar"/>
+            <entry path="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre\lib\sunrsasign.jar"/>
+            <entry path="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre\lib\jsse.jar"/>
+            <entry path="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre\lib\jce.jar"/>
+            <entry path="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre\lib\charsets.jar"/>
+            <entry path="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre\lib\jfr.jar"/>
+            <entry path="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre\classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre\lib\ext"/>
+            <entry path="C:\windows\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="C:\Program Files\Amazon Corretto\jdk1.8.0_402\jre\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
 </libraryInfos>
