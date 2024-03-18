@@ -52,6 +52,6 @@
       </ImageView>
    </center>
    <top>
-      <Label fx:id="narrator" prefHeight="66.0" prefWidth="485.0" text="Instructions" BorderPane.alignment="TOP_RIGHT" />
+      <Label fx:id="narrator" prefHeight="66.0" prefWidth="485.0" text="You're Lost? Make a choice, and hope for the best." BorderPane.alignment="TOP_RIGHT" />
    </top>
 </BorderPane>

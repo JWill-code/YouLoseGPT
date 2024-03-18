@@ -66,17 +66,17 @@ public class HorrorBoxController {
 		else if (path.counter == 2) {
 			++path.counter;
 			pathPhoto.setImage(path.forest2);
-			narrator.setText("You now find yourself deep in the center of a forest.\nIn the corner of your eye you think you see the figure of a \npanther, but you arent sure.");
+			narrator.setText("You now find yourself deep in the center of a forest.\nIn the corner of your eye you think you see the figure of a panther, but you arent sure.");
 		}
 		else if (path.counter == 3) {
 			++path.counter;
 			pathPhoto.setImage(path.forest3);
-			narrator.setText("You think you see a woman if you squint in the mist, but you aren't sure.\n Are you hallucinating! Maybe but what if they can help you!");
+			narrator.setText("You think you see a road in the distance, butyou aren't sure.\n Even better, you think you see people! Maybe they can help you!");
 		}
 		else if(path.counter == 0){
 			path.counter+=2;
 			pathPhoto.setImage(path.forest1); 
-			narrator.setText("You find yourself in a forest, \nyou aren't sure if there are wild animals or something worse \nlurking in the shadows ");
+			narrator.setText("You find yourself in a forest, \nyou aren't sure if there are wild animals or something worse lurking in the shadows ");
 		}
 		else {
 			pathPhoto.setImage(path.gameOver);
@@ -89,22 +89,22 @@ public class HorrorBoxController {
 		if (path.counter == 1) {
 			++path.counter;
 			pathPhoto.setImage(path.forest4);//change to other picture
-			narrator.setText("You wander right, and find you self in a tight forested area.\n It's incredibly quiet, but something tells you that you shouldnt make noise here.");
+			narrator.setText("First");
 		}
 		else if (path.counter == 2) {
 			++path.counter;
 			pathPhoto.setImage(path.forest5);
-			narrator.setText("You see a mess of broken stones, in what looks like a man made \nclearing. Do you investigate further?");
+			narrator.setText("Second");
 		}
 		else if (path.counter == 3) {
 			++path.counter;
 			pathPhoto.setImage(path.forest6);
-			narrator.setText("The trees around you begin to whisper.\n You hear their voices. \n They tell you to come closer");
+			narrator.setText("Third");
 		}
 		else if(path.counter == 0){
 			path.counter+=2;
 			pathPhoto.setImage(path.forest4);//change to other picture
-			narrator.setText("You wander right, and find you self in a tight forested area.\n It's incredibly quiet, but something tells you that you shouldnt \nmake noise here.");
+			narrator.setText("First");
 		}
 		else {
 			pathPhoto.setImage(path.gameOver);

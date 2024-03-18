@@ -99,7 +99,7 @@ public class HorrorBoxController {
 		else if (path.counter == 3) {
 			++path.counter;
 			pathPhoto.setImage(path.forest6);
-			narrator.setText("The trees around you begin to whisper.\n You hear their voices. \n They tell you to come closer");
+			narrator.setText("Third");
 		}
 		else if(path.counter == 0){
 			path.counter+=2;
