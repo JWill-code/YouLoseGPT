@@ -1,0 +1,32 @@
+import javafx.scene.image.Image;
+
+public class Path {
+	//This Counter will keep track of how far along the player is in the story
+	int counter = 0;
+
+	//This will be the area for generating content for their journey
+	public String toString() { 
+		return " "; 
+	}
+
+	// This is the constructor where the counter is stored.
+	Path(int count) {
+		this.counter = count;
+	}
+
+	Image forest1 = new Image("file:Images/CreepyForest1.png");
+	Image forest2 = new Image("file:Images/CreepyForest2.png");
+	Image forest3 = new Image("file:Images/CreepyForest3.png");
+	Image forest4 = new Image("file:Images/CreepyForest4.png");
+	Image forest5 = new Image("file:Images/CreepyForest5.png");
+	Image gameOver = new Image("file:Images/GameOVer.png");
+	Image forest6 = new Image("file:Images/HauntedForest6.png");
+	Image maze1 = new Image("file:Images/HauntedMaze.png");
+	Image maze2 = new Image("file:Images/HauntedMazeTwo.png");
+	Image maze3 = new Image("file:Images/HauntedMazeThree.png");
+	Image house1 = new Image("file:Images/SwampHouse.png");
+	Image road1 = new Image("file:Images/CreepyRoad.png");
+	//add images and make sure they upload
+	
+	
+}

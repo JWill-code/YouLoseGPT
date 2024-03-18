@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_LQFaEOGpEe6IXfn5uHipVQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_LQFaEeGpEe6IXfn5uHipVQ" bindingContexts="_LQIexeGpEe6IXfn5uHipVQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;HorrorBoxController.java&quot; tooltip=&quot;AdvSoftwareMidterm/src/HorrorBoxController.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/HorrorBoxController.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;FXMLRunner.java&quot; tooltip=&quot;AdvSoftwareMidterm/src/FXMLRunner.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/FXMLRunner.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Path.java&quot; tooltip=&quot;AdvSoftwareMidterm/src/Path.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/Path.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Start.java&quot; tooltip=&quot;AdvSoftwareMidterm/src/Start.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/Start.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;CreepyForest1.jpg&quot; tooltip=&quot;AdvSoftwareMidterm/src/Images/CreepyForest1.jpg&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/Images/CreepyForest1.jpg&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;End.java&quot; tooltip=&quot;AdvSoftwareMidterm/src/End.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/End.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;NativeConstructorAccessorImpl.class&quot; tooltip=&quot;sun.reflect.NativeConstructorAccessorImpl&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=AdvSoftwareMidterm/C:\/Program Files\/Amazon Corretto\/jdk1.8.0_402\/jre\/lib\/rt.jar=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&amp;lt;sun.reflect(NativeConstructorAccessorImpl.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.fx.ide.fxml.editors.FXMLEditor&quot; name=&quot;HorrorBox.fxml&quot; tooltip=&quot;AdvSoftwareMidterm/src/HorrorBox.fxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/HorrorBox.fxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;StartScreen.png&quot; tooltip=&quot;AdvSoftwareMidterm/src/Images/StartScreen.png&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/Images/StartScreen.png&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;SwampHouse.png&quot; tooltip=&quot;AdvSoftwareMidterm/src/Images/SwampHouse.png&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/Images/SwampHouse.png&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;CreepyForest5.png&quot; tooltip=&quot;AdvSoftwareMidterm/src/Images/CreepyForest5.png&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/Images/CreepyForest5.png&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;CreepyForest1.png&quot; tooltip=&quot;AdvSoftwareMidterm/src/Images/CreepyForest1.png&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/Images/CreepyForest1.png&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;CreepyForest2.png&quot; tooltip=&quot;AdvSoftwareMidterm/src/Images/CreepyForest2.png&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/Images/CreepyForest2.png&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;End.java&quot; tooltip=&quot;AdvSoftwareMidterm/src/End.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/End.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;FXMLRunner.java&quot; tooltip=&quot;AdvSoftwareMidterm/src/FXMLRunner.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/FXMLRunner.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;HorrorBoxController.java&quot; tooltip=&quot;AdvSoftwareMidterm/src/HorrorBoxController.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/HorrorBoxController.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Start.java&quot; tooltip=&quot;AdvSoftwareMidterm/src/Start.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/Start.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Path.java&quot; tooltip=&quot;AdvSoftwareMidterm/src/Path.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/Path.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.fx.ide.fxml.editors.FXMLEditor&quot; name=&quot;HorrorBox.fxml&quot; tooltip=&quot;AdvSoftwareMidterm/src/HorrorBox.fxml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/HorrorBox.fxml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;HauntedMazeTwo.png&quot; tooltip=&quot;AdvSoftwareMidterm/src/Images/HauntedMazeTwo.png&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/Images/HauntedMazeTwo.png&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;Abandoned Building.png&quot; tooltip=&quot;AdvSoftwareMidterm/src/Images/Abandoned Building.png&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/Images/Abandoned Building.png&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;CreepyForest1.jpg&quot; tooltip=&quot;AdvSoftwareMidterm/src/Images/CreepyForest1.jpg&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AdvSoftwareMidterm/src/Images/CreepyForest1.jpg&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;NativeConstructorAccessorImpl.class&quot; tooltip=&quot;sun.reflect.NativeConstructorAccessorImpl&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=AdvSoftwareMidterm/C:\/Program Files\/Amazon Corretto\/jdk1.8.0_402\/jre\/lib\/rt.jar=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&amp;lt;sun.reflect(NativeConstructorAccessorImpl.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_LQFaEeGpEe6IXfn5uHipVQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_LQFaEuGpEe6IXfn5uHipVQ" x="0" y="0" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
@@ -48,6 +48,7 @@
             <children xsi:type="basic:PartSashContainer" xmi:id="_LQFaFuGpEe6IXfn5uHipVQ" containerData="2600" selectedElement="_LQFaF-GpEe6IXfn5uHipVQ">
               <children xsi:type="basic:PartStack" xmi:id="_LQFaF-GpEe6IXfn5uHipVQ" elementId="topLeft" containerData="5000" selectedElement="_LQFaGOGpEe6IXfn5uHipVQ">
                 <tags>org.eclipse.e4.primaryNavigationStack</tags>
+                <tags>MinimizedByZoom</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_LQFaGOGpEe6IXfn5uHipVQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_LQGpXuGpEe6IXfn5uHipVQ" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
@@ -57,8 +58,10 @@
                   <tags>categoryTag:General</tags>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_LQFaGuGpEe6IXfn5uHipVQ" elementId="bottomLeft" containerData="5000" selectedElement="_LQFaG-GpEe6IXfn5uHipVQ">
+              <children xsi:type="basic:PartStack" xmi:id="_LQFaGuGpEe6IXfn5uHipVQ" elementId="bottomLeft" visible="false" containerData="5000" selectedElement="_LQFaG-GpEe6IXfn5uHipVQ">
                 <tags>org.eclipse.e4.secondaryNavigationStack</tags>
+                <tags>Minimized</tags>
+                <tags>MinimizedByZoom</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_LQFaG-GpEe6IXfn5uHipVQ" elementId="org.eclipse.ui.views.ContentOutline" ref="_LQGp5OGpEe6IXfn5uHipVQ" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
@@ -73,7 +76,7 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_LQFaHuGpEe6IXfn5uHipVQ" containerData="7400" selectedElement="_LQFaH-GpEe6IXfn5uHipVQ">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_LQFaHuGpEe6IXfn5uHipVQ" containerData="7400" selectedElement="_LQFaI-GpEe6IXfn5uHipVQ">
               <children xsi:type="basic:PartSashContainer" xmi:id="_LQFaH-GpEe6IXfn5uHipVQ" containerData="6600" selectedElement="_LQFaIuGpEe6IXfn5uHipVQ" horizontal="true">
                 <children xsi:type="basic:PartStack" xmi:id="_LQFaIOGpEe6IXfn5uHipVQ" elementId="org.eclipse.gef.ui.palette_viewMStack" toBeRendered="false" containerData="1600">
                   <children xsi:type="advanced:Placeholder" xmi:id="_LQFaIeGpEe6IXfn5uHipVQ" elementId="org.eclipse.gef.ui.palette_view" toBeRendered="false" ref="_LQHPTeGpEe6IXfn5uHipVQ" closeable="true">
@@ -81,11 +84,16 @@
                     <tags>categoryTag:General</tags>
                   </children>
                 </children>
-                <children xsi:type="advanced:Placeholder" xmi:id="_LQFaIuGpEe6IXfn5uHipVQ" elementId="org.eclipse.ui.editorss" containerData="8400" ref="_LQGpSOGpEe6IXfn5uHipVQ"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_LQFaIuGpEe6IXfn5uHipVQ" elementId="org.eclipse.ui.editorss" containerData="8400" ref="_LQGpSOGpEe6IXfn5uHipVQ">
+                  <tags>Maximized</tags>
+                </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_LQFaI-GpEe6IXfn5uHipVQ" elementId="bottomRight" containerData="3400" selectedElement="_u40zseSUEe69051SMKFdvg">
+              <children xsi:type="basic:PartStack" xmi:id="_LQFaI-GpEe6IXfn5uHipVQ" elementId="bottomRight" visible="false" containerData="3400" selectedElement="_u40zseSUEe69051SMKFdvg">
                 <tags>org.eclipse.e4.secondaryDataStack</tags>
                 <tags>General</tags>
+                <tags>Minimized</tags>
+                <tags>MinimizedByZoom</tags>
+                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_LQFaJOGpEe6IXfn5uHipVQ" elementId="org.eclipse.ui.views.TaskList" ref="_LQGqEuGpEe6IXfn5uHipVQ" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
@@ -137,26 +145,23 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_LQGpSOGpEe6IXfn5uHipVQ" elementId="org.eclipse.ui.editorss" selectedElement="_LQGpSeGpEe6IXfn5uHipVQ">
-      <children xsi:type="basic:PartStack" xmi:id="_LQGpSeGpEe6IXfn5uHipVQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_LQGpTuGpEe6IXfn5uHipVQ">
+      <children xsi:type="basic:PartStack" xmi:id="_LQGpSeGpEe6IXfn5uHipVQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_LQGpUuGpEe6IXfn5uHipVQ">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_LQGpSuGpEe6IXfn5uHipVQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="FXMLRunner.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;FXMLRunner.java&quot; partName=&quot;FXMLRunner.java&quot; title=&quot;FXMLRunner.java&quot; tooltip=&quot;AdvSoftwareMidterm/src/FXMLRunner.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/AdvSoftwareMidterm/src/FXMLRunner.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;478&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;FXMLRunner.java&quot; partName=&quot;FXMLRunner.java&quot; title=&quot;FXMLRunner.java&quot; tooltip=&quot;AdvSoftwareMidterm/src/FXMLRunner.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/AdvSoftwareMidterm/src/FXMLRunner.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;517&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_LQGpTuGpEe6IXfn5uHipVQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="HorrorBoxController.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;HorrorBoxController.java&quot; partName=&quot;HorrorBoxController.java&quot; title=&quot;HorrorBoxController.java&quot; tooltip=&quot;AdvSoftwareMidterm/src/HorrorBoxController.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/AdvSoftwareMidterm/src/HorrorBoxController.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3844&quot; selectionTopPixel=&quot;2333&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;HorrorBoxController.java&quot; partName=&quot;HorrorBoxController.java&quot; title=&quot;HorrorBoxController.java&quot; tooltip=&quot;AdvSoftwareMidterm/src/HorrorBoxController.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/AdvSoftwareMidterm/src/HorrorBoxController.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_LQGpUuGpEe6IXfn5uHipVQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Path.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Path.java&quot; partName=&quot;Path.java&quot; title=&quot;Path.java&quot; tooltip=&quot;AdvSoftwareMidterm/src/Path.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/AdvSoftwareMidterm/src/Path.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;266&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Path.java&quot; partName=&quot;Path.java&quot; title=&quot;Path.java&quot; tooltip=&quot;AdvSoftwareMidterm/src/Path.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/AdvSoftwareMidterm/src/Path.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1025&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -168,7 +173,7 @@
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_LQGpWuGpEe6IXfn5uHipVQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Start.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Start.java&quot; partName=&quot;Start.java&quot; title=&quot;Start.java&quot; tooltip=&quot;AdvSoftwareMidterm/src/Start.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/AdvSoftwareMidterm/src/Start.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Start.java&quot; partName=&quot;Start.java&quot; title=&quot;Start.java&quot; tooltip=&quot;AdvSoftwareMidterm/src/Start.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/AdvSoftwareMidterm/src/Start.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;309&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -187,6 +192,48 @@
         </children>
         <children xsi:type="basic:Part" xmi:id="_mo3pgOSxEe6W6J5d1t_2bA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\CreepyForest1.jpg" iconURI="platform:/plugin/org.eclipse.ui.browser/icons/obj16/internal_browser.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;CreepyForest1.jpg&quot; partName=&quot;C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\CreepyForest1.jpg&quot; title=&quot;C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\CreepyForest1.jpg&quot; tooltip=&quot;AdvSoftwareMidterm/src/Images/CreepyForest1.jpg&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/AdvSoftwareMidterm/src/Images/CreepyForest1.jpg&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.ui.browser.editor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_MzOgMOS8Ee6GipIepOgu3g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\SwampHouse.png" iconURI="platform:/plugin/org.eclipse.ui.browser/icons/obj16/internal_browser.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;SwampHouse.png&quot; partName=&quot;C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\SwampHouse.png&quot; title=&quot;C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\SwampHouse.png&quot; tooltip=&quot;AdvSoftwareMidterm/src/Images/SwampHouse.png&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/AdvSoftwareMidterm/src/Images/SwampHouse.png&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.ui.browser.editor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_G1F4YOS9Ee68Utxuh5HIDw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\SwampHouse.png" iconURI="platform:/plugin/org.eclipse.ui.browser/icons/obj16/internal_browser.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;SwampHouse.png&quot; partName=&quot;C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\SwampHouse.png&quot; title=&quot;C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\SwampHouse.png&quot; tooltip=&quot;AdvSoftwareMidterm/src/Images/SwampHouse.png&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/AdvSoftwareMidterm/src/Images/SwampHouse.png&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.ui.browser.editor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_GHJs8OTAEe6cSa-wMBAg_w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\Abandoned Building.png" iconURI="platform:/plugin/org.eclipse.ui.browser/icons/obj16/internal_browser.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;Abandoned Building.png&quot; partName=&quot;C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\Abandoned Building.png&quot; title=&quot;C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\Abandoned Building.png&quot; tooltip=&quot;AdvSoftwareMidterm/src/Images/Abandoned Building.png&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/AdvSoftwareMidterm/src/Images/Abandoned Building.png&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.ui.browser.editor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_oCkpkOTAEe6cSa-wMBAg_w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\HauntedMazeTwo.png" iconURI="platform:/plugin/org.eclipse.ui.browser/icons/obj16/internal_browser.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;HauntedMazeTwo.png&quot; partName=&quot;C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\HauntedMazeTwo.png&quot; title=&quot;C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\HauntedMazeTwo.png&quot; tooltip=&quot;AdvSoftwareMidterm/src/Images/HauntedMazeTwo.png&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/AdvSoftwareMidterm/src/Images/HauntedMazeTwo.png&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.ui.browser.editor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_7g8t0OTAEe6cSa-wMBAg_w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\CreepyForest2.png" iconURI="platform:/plugin/org.eclipse.ui.browser/icons/obj16/internal_browser.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;CreepyForest2.png&quot; partName=&quot;C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\CreepyForest2.png&quot; title=&quot;C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\CreepyForest2.png&quot; tooltip=&quot;AdvSoftwareMidterm/src/Images/CreepyForest2.png&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/AdvSoftwareMidterm/src/Images/CreepyForest2.png&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.ui.browser.editor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_8qZCIOTAEe6cSa-wMBAg_w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\CreepyForest5.png" iconURI="platform:/plugin/org.eclipse.ui.browser/icons/obj16/internal_browser.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;CreepyForest5.png&quot; partName=&quot;C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\CreepyForest5.png&quot; title=&quot;C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\CreepyForest5.png&quot; tooltip=&quot;AdvSoftwareMidterm/src/Images/CreepyForest5.png&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/AdvSoftwareMidterm/src/Images/CreepyForest5.png&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.ui.browser.editor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_B5inkOTBEe6cSa-wMBAg_w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\StartScreen.png" iconURI="platform:/plugin/org.eclipse.ui.browser/icons/obj16/internal_browser.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;StartScreen.png&quot; partName=&quot;C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\StartScreen.png&quot; title=&quot;C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\AdvSoftwareMidterm\src\Images\StartScreen.png&quot; tooltip=&quot;AdvSoftwareMidterm/src/Images/StartScreen.png&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/AdvSoftwareMidterm/src/Images/StartScreen.png&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.ui.browser.editor</tags>
@@ -265,6 +312,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_u48vgOSUEe69051SMKFdvg" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -278,7 +327,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_LQHPU-GpEe6IXfn5uHipVQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_vUzsoOS2Ee6Ug7r_g1E-Cg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_LRaS3OGpEe6IXfn5uHipVQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_qJc94OS9Ee6cSa-wMBAg_w" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_LRaS3OGpEe6IXfn5uHipVQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_LQHPYOGpEe6IXfn5uHipVQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -306,7 +355,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_LQHPpeGpEe6IXfn5uHipVQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_vU1h0-S2Ee6Ug7r_g1E-Cg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_LRaSWuGpEe6IXfn5uHipVQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_qJgoQOS9Ee6cSa-wMBAg_w" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_LRaSWuGpEe6IXfn5uHipVQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_LQHPseGpEe6IXfn5uHipVQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -340,8 +389,23 @@
         <tags>Draggable</tags>
       </children>
     </trimBars>
-    <trimBars xmi:id="_LQHPy-GpEe6IXfn5uHipVQ" elementId="org.eclipse.ui.trim.vertical1" contributorURI="platform:/plugin/org.eclipse.ui.workbench" side="Left"/>
-    <trimBars xmi:id="_LQHPzOGpEe6IXfn5uHipVQ" elementId="org.eclipse.ui.trim.vertical2" contributorURI="platform:/plugin/org.eclipse.ui.workbench" side="Right"/>
+    <trimBars xmi:id="_LQHPy-GpEe6IXfn5uHipVQ" elementId="org.eclipse.ui.trim.vertical1" contributorURI="platform:/plugin/org.eclipse.ui.workbench" side="Left">
+      <children xsi:type="menu:ToolControl" xmi:id="_DCsoAOTBEe6cSa-wMBAg_w" elementId="topLeft(IDEWindow).(org.eclipse.ui.resourcePerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+        <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_DDYkgOTBEe6cSa-wMBAg_w" elementId="bottomLeft(IDEWindow).(org.eclipse.ui.resourcePerspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+        <tags>Draggable</tags>
+      </children>
+    </trimBars>
+    <trimBars xmi:id="_LQHPzOGpEe6IXfn5uHipVQ" elementId="org.eclipse.ui.trim.vertical2" contributorURI="platform:/plugin/org.eclipse.ui.workbench" side="Right">
+      <children xsi:type="menu:ToolControl" xmi:id="_DDl_4OTBEe6cSa-wMBAg_w" elementId="bottomRight(IDEWindow).(org.eclipse.ui.resourcePerspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+        <tags>Draggable</tags>
+        <tags>MinimizedAndShowing</tags>
+      </children>
+    </trimBars>
   </children>
   <bindingTables xmi:id="_LQHPzeGpEe6IXfn5uHipVQ" contributorURI="platform:/plugin/org.eclipse.ui.workbench" bindingContext="_LQIexeGpEe6IXfn5uHipVQ">
     <bindings xmi:id="_LQHPzuGpEe6IXfn5uHipVQ" keySequence="CTRL+1" command="_LRaSUeGpEe6IXfn5uHipVQ"/>

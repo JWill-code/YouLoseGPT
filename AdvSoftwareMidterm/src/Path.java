@@ -14,18 +14,18 @@ public class Path {
 		this.counter = count;
 	}
 
-	Image forest1 = new Image("file:Images/CreepyForest1.jpg");
-	Image forest2 = new Image("file:Images/CreepyForest2.jpg");
-	Image forest3 = new Image("file:Images/CreepyForest3.jpg");
-	Image forest4 = new Image("file:Images/CreepyForest4.jpg");
-	Image forest5 = new Image("file:Images/CreepyForest5.jpg");
-	Image gameOver = new Image("file:Images/GameOVer.jpg");
-	Image forest6 = new Image("file:Images/HauntedForest6.jpg");
-	Image maze1 = new Image("file:Images/HauntedMaze.jpg");
-	Image maze2 = new Image("file:Images/HauntedMazeTwo.jpg");
-	Image maze3 = new Image("file:Images/HauntedMazeThree.jpg");
-	Image house1 = new Image("file:Images/SwampHouse.jpg");
-	Image road1 = new Image("file:Images/CreepyRoad.jpg");
+	Image forest1 = new Image("Images/CreepyForest1.png");
+	Image forest2 = new Image("Images/CreepyForest2.png");
+	Image forest3 = new Image("Images/CreepyForest3.png");
+	Image forest4 = new Image("Images/CreepyForest4.png");
+	Image forest5 = new Image("Images/CreepyForest5.png");
+	Image gameOver = new Image("Images/GameOVer.png");
+	Image forest6 = new Image("Images/HauntedForest6.png");
+	Image maze1 = new Image("Images/HauntedMaze.png");
+	Image maze2 = new Image("Images/HauntedMazeTwo.png");
+	Image maze3 = new Image("Images/HauntedMazeThree.png");
+	Image house1 = new Image("Images/SwampHouse.png");
+	Image road1 = new Image("Images/CreepyRoad.png");
 	//add images and make sure they upload
 	
 	

@@ -8,7 +8,7 @@ public class Start extends Path {
 		super(count);
 	}
 
-	Image beginning = new Image("file:Images/HauntedMaze.jpg");
+	Image beginning = new Image("file:Images/HauntedMaze.png");
 	
 	//Story for beginning journey
 	@Override

@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HorrorBoxController">
+<BorderPane prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HorrorBoxController">
    <left>
       <VBox maxHeight="1.7976931348623157E308" spacing="8.0" BorderPane.alignment="CENTER">
          <children>
@@ -47,7 +47,7 @@
    <center>
       <ImageView fx:id="pathPhoto" fitHeight="285.0" fitWidth="466.0" onMouseClicked="#startGame" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="BOTTOM_CENTER">
          <image>
-            <Image url="@Images/StartScreen.jpg" />
+            <Image url="@Images/StartScreen.png" />
          </image>
       </ImageView>
    </center>
