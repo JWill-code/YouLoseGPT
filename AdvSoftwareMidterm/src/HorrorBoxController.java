@@ -10,8 +10,9 @@ import javafx.scene.input.MouseEvent;
 //This is a successful implementation of a controller class as seen in ch.8
 public class HorrorBoxController {
 	
-	Start startOfGame = new Start(0);
+	Path startOfGame = new Start(0);
 	Path path = new Path(0);
+	Path endOfGame = new End(0);
 
 	@FXML
 	private Button leftPath; //choice one of storyline 12.3, 12.4
@@ -50,7 +51,7 @@ public class HorrorBoxController {
 	void cryButton(MouseEvent event) { //13.3-13.5
 		path.counter += 4;
 		pathPhoto.setImage(path.gameOver);
-		narrator.setText("There are right decisions, and then there is what you did.\nEither way your journey is over!");
+		narrator.setText(endOfGame.toString());
 	}
 
 	@FXML
@@ -79,7 +80,7 @@ public class HorrorBoxController {
 		}
 		else {
 			pathPhoto.setImage(path.gameOver);
-			narrator.setText("There are right decisions, and then there is what you did.\nEither way your journey is over!");
+			narrator.setText(endOfGame.toString());
 		}
 	}
 
@@ -107,9 +108,8 @@ public class HorrorBoxController {
 		}
 		else {
 			pathPhoto.setImage(path.gameOver);
-			narrator.setText("There are right decisions, and then there is what you did.\nEither way your journey is over!");
+			narrator.setText(endOfGame.toString());
 		}
-
 	}
 
 	@FXML //this one should use the haunted maze pictures 
@@ -136,10 +136,8 @@ public class HorrorBoxController {
 		}
 		else {
 			pathPhoto.setImage(path.gameOver);
-			narrator.setText("There are right decisions, and then there is what you did.\nEither way your journey is over!");
+			narrator.setText(endOfGame.toString());
 		}
-
 	}
-
 
 }

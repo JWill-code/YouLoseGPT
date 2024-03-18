@@ -26,6 +26,7 @@ public class Path {
 	Image maze3 = new Image("Images/HauntedMazeThree.png");
 	Image house1 = new Image("Images/SwampHouse.png");
 	Image road1 = new Image("Images/CreepyRoad.png");
+	Image beginning = new Image("Images/HauntedMaze.png");
 	//add images and make sure they upload
 	
 	
