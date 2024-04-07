@@ -13,6 +13,9 @@ public class HorrorBoxController {
 	Path startOfGame = new Start(0);
 	Path path = new Path(0);
 	Path endOfGame = new End(0);
+	//I'm going to use a collection/map for the images and storyline branching.
+	//I will do a better job than the one I put in the presentation.
+	
 
 	@FXML
 	private Button leftPath; //choice one of storyline 12.3, 12.4
