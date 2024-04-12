@@ -40,7 +40,7 @@
          <children>
             <Label text="Write your own path:" />
             <Button fx:id="chatGPTButton" alignment="BOTTOM_LEFT" mnemonicParsing="false" text="Continue" />
-            <TextArea fx:id="userTxt" prefHeight="114.0" prefWidth="593.0" />
+            <TextArea fx:id="userTxt" onMouseClicked="#selectUserTxt" prefHeight="114.0" prefWidth="593.0" />
          </children>
       </VBox>
    </bottom>

@@ -28,6 +28,9 @@ public class HorrorBoxController {
 
 	@FXML
 	private Button cry; //immediately give up, game over. 12.3, 12.4
+	 
+	@FXML
+	private Button chatGPTButton; //button that says continue
 
 	@FXML
 	private TextArea userTxt; /*we will have the user enter something, but we will do tha 
@@ -52,6 +55,7 @@ public class HorrorBoxController {
 
 	@FXML
 	void cryButton(MouseEvent event) { //13.3-13.5
+		userTxt.setDisable(true);
 		path.counter += 4;
 		pathPhoto.setImage(path.gameOver);
 		narrator.setText(endOfGame.toString());
@@ -59,7 +63,7 @@ public class HorrorBoxController {
 
 	@FXML
 	void walkLeftButton(MouseEvent event) { //13.3-13.5 
-
+		userTxt.setDisable(true);
 		if (path.counter == 1) {
 			++path.counter;
 			pathPhoto.setImage(path.forest1); //left, right, and straight are all dependent on the
@@ -89,6 +93,7 @@ public class HorrorBoxController {
 
 	@FXML
 	void walkRightButton(MouseEvent event) { //13.3-13.5
+		userTxt.setDisable(true);
 		if (path.counter == 1) {
 			++path.counter;
 			pathPhoto.setImage(path.forest4);//change to other picture
@@ -117,6 +122,7 @@ public class HorrorBoxController {
 
 	@FXML //this one should use the haunted maze pictures 
 	void walkStraightButton(MouseEvent event) { //13.3-13.5
+		userTxt.setDisable(true); //disable user text field
 		if (path.counter == 1) {
 			++path.counter;
 			pathPhoto.setImage(path.road1);
@@ -141,6 +147,18 @@ public class HorrorBoxController {
 			pathPhoto.setImage(path.gameOver);
 			narrator.setText(endOfGame.toString());
 		}
+		
 	}
+	@FXML
+	void selectUserTxt(MouseEvent event) { 
+		//disables buttons because the chatgpt user narration is selected.
+		//leftPath, rightPath, straightPath, cry
+		//leave message in label???
+		//this code is on the userTxt select, not the button that says continue
+		leftPath.setDisable(true);
+		rightPath.setDisable(true);
+		straightPath.setDisable(true);
+		cry.setDisable(true);
+		}
 
 }
