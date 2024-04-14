@@ -14,10 +14,10 @@ public class Path {
 		this.counter = count;
 	}
 
-	Image forest1 = new Image("Images/Jungle Tiger.png");
+	Image forest1 = new Image("Images/J.png");
 	Image forest2 = new Image("Images/CreepyForest2.png");
 	Image forest3 = new Image("Images/CreepyForest3.png");
-	Image forest4 = new Image("Images/ForestSnake.png");
+	Image forest4 = new Image("Images/CreepyForest4.png");
 	Image forest5 = new Image("Images/CreepyForest5.png");
 	Image gameOver = new Image("Images/GameOVer.png");
 	Image forest6 = new Image("Images/HauntedForest6.png");
@@ -25,7 +25,7 @@ public class Path {
 	Image maze2 = new Image("Images/HauntedMazeTwo.png");
 	Image maze3 = new Image("Images/HauntedMazeThree.png");
 	Image house1 = new Image("Images/SwampHouse.png");
-	Image road1 = new Image("Images/DesertMonkey.png");
+	Image road1 = new Image("Images/CreepyRoad.png");
 	Image beginning = new Image("Images/HauntedMaze.png");
 	//add images and make sure they upload
 	
