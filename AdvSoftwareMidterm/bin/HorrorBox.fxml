@@ -22,6 +22,7 @@
                         <Button fx:id="rightPath" mnemonicParsing="false" onMouseClicked="#walkRightButton" text="Walk Right" />
                         <Button fx:id="straightPath" mnemonicParsing="false" onMouseClicked="#walkStraightButton" text="Walk Straight" />
                         <Button fx:id="cry" mnemonicParsing="false" onMouseClicked="#cryButton" text="Cry" />
+                        <Button fx:id="resetButton" mnemonicParsing="false" onMouseClicked="#resetButton" text="Reset" />
                      </children>
                   </VBox>
                </content>

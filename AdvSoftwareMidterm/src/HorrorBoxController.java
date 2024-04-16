@@ -29,6 +29,9 @@ public class HorrorBoxController {
 	@FXML
 	private Button cry; //immediately give up, game over. 12.3, 12.4
 	 
+    @FXML
+    private Button resetButton;
+    
 	@FXML
 	private Button chatGPTButton; //button that says continue
 
@@ -161,4 +164,18 @@ public class HorrorBoxController {
 		cry.setDisable(true);
 		}
 
+	@FXML
+    void resetButton(MouseEvent event) {
+		path.counter = 0;
+		narrator.setText(startOfGame.toString());
+		pathPhoto.setImage(startOfGame.beginning);
+		leftPath.setDisable(false);
+		rightPath.setDisable(false);
+		straightPath.setDisable(false);
+		cry.setDisable(false);
+		userTxt.setDisable(false);
+    }
+	
+	
+	
 }
