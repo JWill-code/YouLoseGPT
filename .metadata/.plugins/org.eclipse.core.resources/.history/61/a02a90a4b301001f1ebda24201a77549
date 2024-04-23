@@ -6,8 +6,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.LinkedList;
 import java.util.List;
-import java.io.BufferedWriter;
-//FileHelper
+
 //This Program stores the files that Chatgpt json will be stored in
 public class FileHelper {
 	public static String readLinesAsString(File file) {
@@ -52,13 +51,5 @@ public class FileHelper {
 			e.printStackTrace();
 			System.out.println("An error occurred in writing to file " + file + " e=" + e);
 		}
-	}
-	public static void storeResponse(String userPrompt, String aiResponse) {
-	    try (BufferedWriter writer = new BufferedWriter(new FileWriter("chat_history.txt", true))) {
-	        writer.write("User: " + userPrompt + "\nAI: " + aiResponse + "\n\n");
-	    } catch (IOException e) {
-	        System.out.println("An error occurred while trying to write to the file.");
-	        e.printStackTrace();
-	    }
 	}
 }

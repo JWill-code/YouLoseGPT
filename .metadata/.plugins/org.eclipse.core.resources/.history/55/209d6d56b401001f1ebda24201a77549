@@ -71,5 +71,6 @@ public class ChatGPToken {
 	}
 	public static void main(String[] args) {
 		listTokens();
+		prompts();
 	}
 }

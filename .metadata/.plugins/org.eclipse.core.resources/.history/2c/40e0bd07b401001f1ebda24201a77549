@@ -6,7 +6,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.LinkedList;
 import java.util.List;
-import java.io.BufferedWriter;
 //FileHelper
 //This Program stores the files that Chatgpt json will be stored in
 public class FileHelper {
@@ -53,12 +52,37 @@ public class FileHelper {
 			System.out.println("An error occurred in writing to file " + file + " e=" + e);
 		}
 	}
-	public static void storeResponse(String userPrompt, String aiResponse) {
-	    try (BufferedWriter writer = new BufferedWriter(new FileWriter("chat_history.txt", true))) {
-	        writer.write("User: " + userPrompt + "\nAI: " + aiResponse + "\n\n");
-	    } catch (IOException e) {
-	        System.out.println("An error occurred while trying to write to the file.");
-	        e.printStackTrace();
-	    }
-	}
+}
+public static String getChatResponse(String userPrompt) {
+    StringBuffer response = new StringBuffer();
+    try {
+        URL url = new URL("https://api.openai.com/v1/chat/completions");
+        HttpURLConnection con = (HttpURLConnection) url.openConnection();
+        con.setRequestMethod("POST");
+        con.setRequestProperty("Content-Type", "application/json");
+        con.setRequestProperty("Accept", "application/json");
+        con.setRequestProperty("OpenAI-Organization", "your-org-key");
+        con.setDoOutput(true);
+        con.setRequestProperty("Authorization", "Bearer your-api-key");
+
+        // Prepare JSON input with the user's prompt
+        String jsonInputString = String.format("{\"model\": \"gpt-3.5-turbo-0125\", \"messages\": [{\"role\": \"user\", \"content\": \"%s\"}]}", userPrompt);
+        try (OutputStream os = con.getOutputStream()) {
+            byte[] input = jsonInputString.getBytes(StandardCharsets.UTF_8);
+            os.write(input, 0, input.length);
+        }
+
+        int responseCode = con.getResponseCode();
+        System.out.println("Response Code : " + responseCode);
+        BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+        String inputLine;
+        while ((inputLine = in.readLine()) != null) {
+            response.append(inputLine);
+        }
+        in.close();
+    } catch (Exception e) {
+        System.out.println(e.getMessage());
+        return e.getMessage(); // Return the error message if an exception occurs
+    }
+    return response.toString(); // Return the response as a string
 }
