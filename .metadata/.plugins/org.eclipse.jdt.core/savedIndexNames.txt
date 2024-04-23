@@ -17,6 +17,5 @@ INDEX VERSION 1.131+C:\Users\Bryon\OneDrive\Documents\GitHub\YouLoseGPT\.metadat
 330937495.index
 2479380087.index
 240395871.index
-1007003278.index
 1279139854.index
 3313988709.index
