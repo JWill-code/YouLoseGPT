@@ -70,7 +70,7 @@ public class HorrorBoxController {
 		if (path.counter == 1) {
 			++path.counter;
 			pathPhoto.setImage(path.forest1); //left, right, and straight are all dependent on the
-			//counter number, tiger picture
+			//counter number,
 			narrator.setText("You find yourself in a forest, \nyou aren't sure if there are wild animals or something worse \nlurking in the shadows ");
 		}
 		else if (path.counter == 2) {
@@ -85,7 +85,7 @@ public class HorrorBoxController {
 		}
 		else if(path.counter == 0){
 			path.counter+=2;
-			pathPhoto.setImage(path.forest1); //tiger picture
+			pathPhoto.setImage(path.forest1); 
 			narrator.setText("You find yourself in a forest, \nyou aren't sure if there are wild animals or something worse \nlurking in the shadows ");
 		}
 		else {
@@ -99,7 +99,7 @@ public class HorrorBoxController {
 		userTxt.setDisable(true);
 		if (path.counter == 1) {
 			++path.counter;
-			pathPhoto.setImage(path.forest4);//snake picture
+			pathPhoto.setImage(path.forest4);
 			narrator.setText("You wander right, and find you self in a tight forested area.\n It's incredibly quiet, but something tells you that you shouldnt make noise here.");
 		}
 		else if (path.counter == 2) {
@@ -114,7 +114,7 @@ public class HorrorBoxController {
 		}
 		else if(path.counter == 0){
 			path.counter+=2;
-			pathPhoto.setImage(path.forest4);//change to other picture
+			pathPhoto.setImage(path.forest4);
 			narrator.setText("You wander right, and find you self in a tight forested area.\n It's incredibly quiet, but something tells you that you shouldnt \nmake noise here.");
 		}
 		else {
